@@ -1,0 +1,38 @@
+# conocer la version de git:
+git --version
+
+# actualizar version de git
+git update-git-for-windows
+
+# iniciar el control de versiones en un proyecto:
+git init
+
+# estado del proyecto:
+git status
+
+# agregar archivos y carpetas al control de versiones
+git add .
+
+# crear una version:
+git commit -m ""
+
+# configuracion inical de la cuenta:
+git config --global user.email "bcizquierdom95@gmail.com"
+git config --global user.name "BryanIzquierdo"
+
+# ver Cambios:
+git diff
+git diff --staged
+
+# Historial:
+git log
+
+# crear rama:
+git checkout -b nombre_rama
+
+# unir ramas:
+// from main:
+	git merge nombre_rama
+
+# crear rama GitHub:
+-push -u origin(ubicacion donde será creada) nombre_rama

@@ -1,0 +1,38 @@
+# Conocer la Versión del mayordomo:
+npm -v
+
+# Como actualizar npm:
+npm i --location=global npm@latest
+
+# Como instalar typeScript:
+npm i --location=global typescript 
+
+# Como instalar React:
+npm i --location=global react 
+
+# Como instalar el creador de proyecto de react:
+npm i --location=global create-react-app
+
+#Mi primer proyecto:
+
+npm i @fortawesome/fontawesome-free
+npm i bootstrap
+
+
+npx create-react-app proyecto01 --template typescript
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+
+import "@fortawesome/fontawesome-free/css/all.css";
+
+npm i bootstrap
+npm i @fortawesome/fontawesome-free
+
+---> Importar librerias
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+import "@fortawesome/fontawesome-free/css/all.css";
+
+
+

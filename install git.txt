@@ -1,0 +1,27 @@
+#instal git
+
+git --version
+
+git config --global user.email "kmirivera22@gmail.com"
+git config --global user.name "kmirivera22"
+
+#Actualizar git
+git update-git-for-windows
+
+#iniciar el control de versiones en u  proyecto:
+git init
+
+# Estado del proyecto:
+git status
+
+# Agregar archivos y carpetas al control de versiones
+git add .
+
+# crea una marca
+git commit
+
+# muestra los cambios
+git log
+
+# generar llave SSH
+ssh-keygen -t rsa

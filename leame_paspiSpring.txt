@@ -1,0 +1,12 @@
+Project: Maven project
+Language: Java
+Spring boot: 2.7.3
+--------------------
+Group: org.mintic
+Artifact: back01
+Name: back01
+Description: Mi primer backend
+Package name: org.mintic.back01
+Packaging: War
+Java (tu versión)
+Yo luego mando el leamePaspi de esto

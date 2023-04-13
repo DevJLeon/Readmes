@@ -1,0 +1,53 @@
+# Saber la versión del npm (mayordomo)
+npm -v
+
+# Saber versión de node
+node -v
+
+
+# Actualizar el mayordomo npm
+npm i -g npm@latest
+
+----------------(OPCIONAL)------------------------
+#Borrar cache despues de actualizar npm
+npm cache clean --force
+--------------------------------------------------
+
+# Como instalar TypeScript
+npm i -g typescript
+
+# Como instalar React
+npm i -g react
+
+# Como saber la versión de TypeScript
+tsc -v
+
+# Como instalar Angular
+npm i -g angular
+
+# Comando fácil para crear aplicaciones en React
+npm i -g create-react-app
+
+# Crear Proyecto con npx (Mi primer Proyecto)
+npx create-react-app proyecto01 --template typescript
+
+
+--------------------------INSTALAR LIBRERIAS------------------------------
+
+
+# Instalar libreria boostrap
+npm i bootstrap
+
+# instalar fortawesome
+npm i @fortawesome/fontawesome-free
+
+# instalar router
+npm i react-router-dom
+
+
+-
+----------------------------IMPORTAR LIBRERIAS-----------------------------
+#import "bootstrap/dist/css/bootstrap.min.css";
+#import "bootstrap/dist/js/bootstrap.min.js";
+#import "@fortawesome/fontawesome-free/css/all.css";
+#
