@@ -20,6 +20,9 @@ git commit -m ""
 git config --global user.email "bcizquierdom95@gmail.com"
 git config --global user.name "BryanIzquierdo"
 
+# Delete credentials on linux:
+git config --global --unset credential.helper
+
 # ver Cambios:
 git diff
 git diff --staged
